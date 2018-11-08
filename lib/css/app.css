@@ -1,7 +1,7 @@
 @import "base/normalize.css";
 @import "settings/variables.css";
 @import "components/navbar.css";
-@import "components/number-block.css";
+@import "components/section-blocks.css";
 
 * {
   box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 
 .Huddle-Container {
   width: 100%;
-  padding: 0 1.3em;
+  padding: 0 1.8em;
   margin: 1em auto;
   text-align: center;
 }
@@ -58,7 +58,7 @@ body {
   font-weight: var(--font-weight-bold);
 }
 .Huddle-Button.big {
-  max-width: 230px;
+  max-width: 245px;
   font-size: 0.95em;
   color: white;
   background-color: var(--color-pink);

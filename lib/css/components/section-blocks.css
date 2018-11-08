@@ -1,0 +1,59 @@
+.Huddle-Number-Block,
+.Huddle-Info-Block {
+  display: block;
+  width: 100%;
+  margin: 5.5em auto 7em auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Huddle-Number-Block {
+  text-align: left;
+  max-width: 50%;
+}
+
+.Huddle-Number-Block .Huddle-Number-Block--icon .Huddle-Image {
+  max-height: 28px;
+}
+
+.Huddle-Number-Block .Huddle-Number-Block--number {
+  font-weight: var(--font-weight-bold);
+  font-size: 2em;
+}
+
+.Huddle-Number-Block--number h1 {
+  margin: 0.2em auto;
+  color: var(--color-dark-cyan);
+}
+.Huddle-Number-Block .Huddle-Number-Block--subtitle {
+  font-size: 1em;
+  color: gray;
+  text-align: center;
+}
+
+.Huddle-Info-Blocks {
+  margin-bottom: 12em;
+}
+
+.Huddle-Info-Block {
+  text-align: center;
+}
+
+.Huddle-Info-Block .Huddle-Info-Block--title {
+  margin: 4em auto 0 auto;
+}
+
+.Huddle-Info-Block--title h3 {
+  margin: 0.1em;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.Huddle-Info-Block .Huddle-Info-Block--description {
+  line-height: 1.2em;
+  padding: 0.1em 0.3em;
+}
+
+.Huddle-Info-Block--description p {
+  padding: 0.1em 0.1em;
+}
