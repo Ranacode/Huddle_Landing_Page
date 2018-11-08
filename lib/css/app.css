@@ -2,6 +2,7 @@
 @import "settings/variables.css";
 @import "components/navbar.css";
 @import "components/section-blocks.css";
+@import "components/footer.css";
 
 * {
   box-sizing: border-box;

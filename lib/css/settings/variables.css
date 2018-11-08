@@ -4,7 +4,7 @@
   --color-pink: hsl(322, 100%, 66%);
   --color-dark-cyan: hsl(192, 100%, 9%);
   --color-pale-blue: hsl(207, 100%, 98%);
-
+  --color-footer: rgb(0, 37, 46);
   /* FONTS */
 
   --font-heading: Poppings, Arial, serif;
