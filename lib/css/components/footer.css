@@ -1,6 +1,49 @@
 .Huddle-Footer {
-  background-color: var(--color-footer);
+  background-image: url("/assets/images/bg-footer-top-mobile.svg");
+  background-repeat: no-repeat;
   width: 100%;
   height: auto;
   color: white;
+  padding-top: 2.5em;
+}
+
+.Huddle-Footer > .Huddle-Footer-Newsletter,
+.Huddle-Footer > .Huddle-Footer-Contact,
+.Huddle-Footer > .Huddle-Footer-Social {
+  background-color: var(--color-footer);
+  padding: 0 1.6em;
+}
+
+.Huddle-Footer > .Huddle-Footer-Newsletter {
+  padding-top: 3em;
+}
+
+.Huddle-Footer-Newsletter > h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.Huddle-Footer > .Huddle-Footer-Newsletter input {
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 5px;
+  padding-left: 0.5em;
+  width: 100%;
+  margin: 0.7em 0 0 0;
+  height: 50px;
+}
+
+.Huddle-Footer > .Huddle-Footer-Newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Huddle-Footer > .Huddle-Footer-Newsletter .Huddle-Button {
+  border-radius: 5px;
+  max-width: 150px;
+  align-self: flex-end;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
 }
