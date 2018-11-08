@@ -6,6 +6,7 @@
 }
 
 .Huddle-Navbar .Huddle-Navbar-Brand {
+  max-width: 71%;
 }
 
 .Huddle-Navbar-Brand > img {

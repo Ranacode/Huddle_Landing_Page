@@ -1,0 +1,28 @@
+.Huddle-Number-Block {
+  display: block;
+  width: 100%;
+  max-width: 50%;
+  margin: 5.5em auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Huddle-Number-Block .Huddle-Number-Block--icon .Huddle-Image {
+  max-height: 28px;
+}
+
+.Huddle-Number-Block .Huddle-Number-Block--number {
+  font-weight: var(--font-weight-bold);
+  font-size: 2em;
+}
+
+.Huddle-Number-Block--number h1 {
+  margin: 0.2em auto;
+  color: var(--color-dark-cyan);
+}
+.Huddle-Number-Block .Huddle-Number-Block--subtitle {
+  font-size: 1em;
+  color: gray;
+  text-align: center;
+}
