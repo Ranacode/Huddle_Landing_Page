@@ -1,0 +1,18 @@
+.Huddle-Navbar {
+  margin: 0.5em 0 6em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Huddle-Navbar .Huddle-Navbar-Brand {
+}
+
+.Huddle-Navbar-Brand > img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+
+.Huddle-Navbar .Huddle-Navbar-Button-Container {
+}

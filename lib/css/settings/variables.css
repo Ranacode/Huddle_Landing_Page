@@ -1,0 +1,15 @@
+:root {
+  /*Colors */
+  --color-black: rgb(0, 0, 0);
+  --color-pink: hsl(322, 100%, 66%);
+  --color-dark-cyan: hsl(192, 100%, 9%);
+  --color-pale-blue: hsl(207, 100%, 98%);
+
+  /* FONTS */
+
+  --font-heading: Poppings, Arial, serif;
+  --font-body: Open Sans, Arial, sans-serif;
+  --font-weight-light: 400;
+  --font-weight-bold: 600;
+  --font-weight-extrabold: 600;
+}
