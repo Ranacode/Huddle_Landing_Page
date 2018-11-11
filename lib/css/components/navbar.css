@@ -6,14 +6,11 @@
 }
 
 .Huddle-Navbar .Huddle-Navbar-Brand {
-  max-width: 71%;
+  max-width: 70%;
 }
 
 .Huddle-Navbar-Brand > img {
   display: block;
   max-width: 50%;
   height: auto;
-}
-
-.Huddle-Navbar .Huddle-Navbar-Button-Container {
 }
