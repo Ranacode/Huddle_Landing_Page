@@ -7,7 +7,6 @@ const path = require("path");
 module.exports = {
   target: "web",
   entry: path.join(__dirname, "lib/js/app.js"),
-  devtool: "inline-source-map",
   output: {
     path: path.resolve(__dirname, "public"),
     filename: "[name].[hash].js"
@@ -42,7 +41,7 @@ module.exports = {
           use: [
             {
               loader: "css-loader",
-              options: { importLoaders: 1 }
+              options: { importLoaders: 1, minimize: true }
             },
             {
               loader: "postcss-loader",
